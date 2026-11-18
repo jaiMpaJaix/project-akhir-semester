@@ -66,4 +66,72 @@ button:hover {
     background-color: white;
     color: #4a90e2;
     cursor: pointer;
+/* Pengaturan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Bagian Konten Utama */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Membuat kartu profil berada tepat di tengah halaman */
+}
+
+/* Class Kartu Profil sesuai ketentuan tugas */
+.kartu-profil {
+    width: 300px;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 6px; /* Opsional: memberi sedikit lengkungan di sudut */
+}
+
+/* Footer */
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 14px;
 }
